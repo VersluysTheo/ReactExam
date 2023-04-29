@@ -5,8 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Routes, Route , BrowserRouter} from "react-router-dom";
 import NotFound from './assets/NotFound';
-import Liste from './assets/component/Liste';
-import FormApp from './assets/component/Form';
 
 
 
@@ -16,8 +14,6 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="/liste" element={<Liste />} />
-        <Route path="/addpokemon" element={<FormApp />} />
       </Routes>
     </BrowserRouter>
 

@@ -1,17 +1,19 @@
 import './App.css';
-import Footer from './assets/component/Footer';
-import SearchAppBar from './assets/component/Header';
-import Jumbotroncard from './assets/component/Section';
+import Button from './assets/component/Button';
+import Phrase from './assets/component/Phrase';
+import Titre from './assets/component/Titre';
 
 
 function App() {
   return (
     <div className="App">
-      <SearchAppBar/>
-      <Jumbotroncard/>
-      <Footer/>
+      <Titre></Titre>
+      <br></br>
+      <Button></Button>
+      <Phrase></Phrase>
     </div>
   );
 }
 
 export default App;
+

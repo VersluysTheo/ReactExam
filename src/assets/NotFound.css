@@ -1,4 +1,6 @@
 .Error{
-    background-image: url(../images/pikachuconfused.jpg);
-    height: 1000px;
+    background-image: url(../images/lost.gif);
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
 }
